@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:22
+-keep class com.uq.tot.FullscreenActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.uq.tot.Snapshot2 { <init>(...); }
+
+# onClick res/layout/activity_snapshot.xml #generated:26
+-keepclassmembers class * { *** Taken!(...); }
+

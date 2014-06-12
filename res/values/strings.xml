@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThisOrThat</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="capture_photo">Capture</string>
+    <string name="camBtn_Record">Record!</string>
+    <string name="camStatus_1pic">Take your first picture</string>
+    <string name="camStatus_2pic">Take your second picture</string>
+    <string name="camStatus_done">Done</string>
+    <string name="camAction_pic_taken">Pic saved:</string>
+    <string name="txtQuestion_default">Which one do you like better?</string>
+</resources>

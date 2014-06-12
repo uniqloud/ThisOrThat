@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".FullscreenActivity" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <!--
+         This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows.
+    -->
+
+
+        <Button
+            android:id="@+id/btnTakePic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Take pic 1" />
+
+      
+        <ImageView
+        android:id="@+id/imageView1"
+        android:padding="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/btnTakePic"
+        android:src="@drawable/tot_img_this" />
+            
+        <ImageView
+        android:id="@+id/imageView2"
+        android:padding="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/btnTakePic"
+        android:layout_toRightOf="@+id/imageView1"
+        android:src="@drawable/tot_img_that" />
+
+        <AutoCompleteTextView
+        android:id="@+id/txtQuestion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:text="@string/txtQuestion_default"
+        android:ems="10" >
+                    
+        </AutoCompleteTextView>
+        
+       <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtQuestion1"
+        android:text="Submit Query" />
+
+
+</RelativeLayout>

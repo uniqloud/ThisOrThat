@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cam_preview_2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+ 
+    <include
+        android:id="@+id/controls_layout"
+        layout="@layout/cam_view2_controls" />
+ 
+    <include
+        android:id="@+id/sensors_data_layout"
+        layout="@layout/cam_view2_sensors_data" />
+    
+
+</FrameLayout>
